@@ -4,22 +4,23 @@ import { toast } from "react-hot-toast"
 import { BsFillCaretRightFill } from "react-icons/bs"
 import { FaShareSquare } from "react-icons/fa"
 import { useDispatch, useSelector } from "react-redux"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 
-import { addToCart } from "../../../slices/cartSlice"
+import { addToCart, removeFromCart } from "../../../slices/cartSlice"
 import { ACCOUNT_TYPE } from "../../../utils/constants"
 
 
 function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
   const { user } = useSelector((state) => state.profile)
   const { token } = useSelector((state) => state.auth)
+  const { cart } = useSelector((state) => state.cart)
   const navigate = useNavigate()
   const dispatch = useDispatch()
-
+  const {courseId}=useParams();
   const {
     thumbnail: ThumbnailImage,
     price: CurrentPrice,
-    _id: courseId,
+    _id,
   } = course
 
   const handleShare = () => {
@@ -47,7 +48,17 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
   }
 
   // console.log("Student already enrolled ", course?.studentsEnrolled, user?._id)
-
+  let flag=false;
+  const cartCheck=(arr)=>{
+    let x = 0;
+    while(x<arr.length){
+      if(arr[x]._id===courseId){
+        return true;
+      }
+      x++;
+    }
+    return false;
+  }
   return (
     <>
       <div
@@ -78,9 +89,20 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
                 : "Buy Now"}
             </button>
             {(!user || !course?.studentsEnrolled.includes(user?._id)) && (
-              <button onClick={handleAddToCart} className="blackButton">
-                Add to Cart
-              </button>
+              <div>
+                { cartCheck(cart) ? (
+                    <div className="redButton text-center" onClick={()=>{
+                      dispatch(removeFromCart(courseId))
+                    }}>
+                      Remove From Cart
+                    </div>
+                  ) : (
+                    <div className="blackButton text-center"  onClick={handleAddToCart}>
+                      Add To Cart
+                    </div>
+                  )
+                }
+              </div> 
             )}
           </div>
           <div>
