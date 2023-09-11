@@ -27,6 +27,17 @@ StudyNotion is an innovative EdTech platform where instructors can upload their 
 - Course Data Storage: Cloudinary
 - Profile Picture Generation: Dicebear API
 
+## Demo of this Project
+
+
+
+https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/0b32c9a3-d73a-4b9b-bae9-e4626d18214b
+
+
+
+https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/58e9f901-796d-42c4-9f90-bdf3dd30b903
+
+
 ## Getting Started
 
 1. Clone the repository:
