@@ -83,3 +83,5 @@ The StudyNotion EdTech Website is open-source software licensed under the [MIT l
 
 - The StudyNotion team would like to express gratitude to the open-source community, without which this project wouldn't have been possible.
 - Thanks to Chart.js, Razorpay, Cloudinary, Dicebear, and all the other tools and libraries that contributed to this project's success.
+
+
