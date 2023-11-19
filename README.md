@@ -37,6 +37,29 @@ https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/0b32c9a3-d73a-
 
 https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/58e9f901-796d-42c4-9f90-bdf3dd30b903
 
+- Mail body for Reset Password
+
+![reset_password](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/ff47ea9d-ade7-40e9-8fa8-9b238eb1ffc4)
+
+- Reset Password preview
+  
+![check_reset](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/5268026c-a0e1-4b14-a660-5ff472b114a8)
+
+- Mail body for Reset Password Link
+  
+![M_reset_mail](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/bb93075c-e6d5-4482-8e1c-0b1bd61c3389)
+
+- Preview for Payment Confirmation Mail
+  
+  ![M_payment_confirmation](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/2db37175-4545-49aa-9728-4f4e8310dc12)
+
+- Preview for Course Enrollment Mail
+  
+![M_reg_confirmation](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/c6f674d2-2cf6-40b7-bc0e-15c76b375ef4)
+
+- Preview for OTP Verification Mail
+  
+![M_OTP_Verify](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/c1d04e30-e564-4587-9cd6-e4a2827183f5)
 
 ## Getting Started
 
