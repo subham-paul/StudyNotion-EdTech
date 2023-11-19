@@ -45,10 +45,6 @@ https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/58e9f901-796d-
   
 ![check_reset](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/5268026c-a0e1-4b14-a660-5ff472b114a8)
 
-- Mail body for Reset Password Link
-  
-![M_reset_mail](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/bb93075c-e6d5-4482-8e1c-0b1bd61c3389)
-
 - Preview for Payment Confirmation Mail
   
   ![M_payment_confirmation](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/2db37175-4545-49aa-9728-4f4e8310dc12)
@@ -60,6 +56,13 @@ https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/58e9f901-796d-
 - Preview for OTP Verification Mail
   
 ![M_OTP_Verify](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/c1d04e30-e564-4587-9cd6-e4a2827183f5)
+
+- Preview of the RazorPay Payment
+  
+![razorpay](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/202ed7e8-3fe8-4903-8e40-a05ef7918d11)
+
+![razorpay_payment](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/b144efc9-bc13-419e-8efc-0e317d976395)
+
 
 ## Getting Started
 
