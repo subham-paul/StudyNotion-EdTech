@@ -37,11 +37,11 @@ https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/0b32c9a3-d73a-
 
 https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/58e9f901-796d-42c4-9f90-bdf3dd30b903
 
-- Mail body for Reset Password
+- Preview of the Reset Password page
 
 ![reset_password](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/ff47ea9d-ade7-40e9-8fa8-9b238eb1ffc4)
 
-- Reset Password preview
+- Preview of the Resend Email page 
   
 ![check_reset](https://github.com/subham-paul/StudyNotion-EdTech/assets/52645265/5268026c-a0e1-4b14-a660-5ff472b114a8)
 
